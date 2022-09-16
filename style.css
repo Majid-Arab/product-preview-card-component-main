@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Montserrat&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  box-sizing: border-box;
+  background-color: rgb(243, 234, 227);
+  font-family: "Fraunces", serif;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.imbBox img {
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.infoBox {
+  padding: 30px;
+}
+
+.para {
+  color: rgb(128, 127, 131);
+  font-size: 14px;
+}
+
+.subTitle{
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.pricePara {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.pricePara span:nth-child(2) {
+  text-align: center;
+}
+
+.pricePara .price {
+  color: rgb(61, 128, 104);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.pricePara .total {
+  font-size: 14px;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(62, 128, 104);
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
